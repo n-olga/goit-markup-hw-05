@@ -440,15 +440,17 @@ h3, h4, h5 {
   }
   .modal-button {
     position: absolute;
+    top: 10px;
+    right: 8px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30px;
     height: 30px;
-    top: 8px;
-    right: 8px;
+    background-color: var(--white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
   }
   .modal-button:hover,
@@ -458,8 +460,9 @@ h3, h4, h5 {
 
   
   .vector-icon {
-    width: 11px;
-    height: 11px;
+    width: 18px;
+    height: 18px;
+ 
   }
 
 .portfolio {
